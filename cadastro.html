@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">	
+	<link rel="stylesheet" href="css/stilo.css">
+	<link rel="stylesheet" href="css/cadastro.css">
+	<title>Receitas Nordestinas</title>	
+</head>
+
+<body>
+	<header>
+		<nav class="navbar col-12  navbar-expand-lg  navbar-dark bg-dark" >
+			<a class="navbar-brand col-1" href="#"><img id="logo" src="./imagens/logo.png"/></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			<div class="collapse navbar-collapse col-11" id="conteudoNavbarSuportado">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				<a class="nav-link" href="home.html">Home <span class="sr-only">(página atual)</span></a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="receitas.html">Receitas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Cadasto</a>
+				</li>							
+			</ul>			
+			</div>
+		</nav>
+	</header>
+	  		<br><br> <br><br>	  
+
+			
+			 <form action="https://formsubmit.co/adaltomagalhaes@gmail.com" method="POST">
+				<h1>Efetue o Seu Cadasto</h1>
+				<fieldset>					
+					<label for="nome">Nome:</label>
+					<input type ="text" minlength="3" id="nome" name="nome" required placeholder="Insira seu nome completo"/>									
+				</fieldset>
+				<fieldset>
+					<label for="email">E-mail:</label>
+					<input type ="text" id="email" name="email" placeholder="Insira um e-mail válido" required />
+				</fieldset>
+				<fieldset>
+					<label for="cep">CEP:</label>
+					<input type ="text" id="cep" name="cep" placeholder="71.000-000"; required />
+				</fieldset>
+				<fieldset>
+					<label for="rua">Rua:</label>
+					<input type ="text" id="rua" name="rua" required />
+				</fieldset>
+				<fieldset>
+					<label for="num">Nº:</label>
+					<input type ="text" id="num" name="num" required />
+					<label for="complemento">Complemento:</label>
+					<input type ="text" id="complemento" name="complemento" required />
+					<button type="reset">Limpar</button>
+				</fieldset>
+				<fieldset>
+					<label for="cidade">Cidade:</label>
+					<input type ="text" id="cidade" name="cidade" required />
+					<label for="complemento">UF:</label>
+					<input type ="text" id="uf" name="uf" required />
+					<button type="submit">Cadastrar</button>
+					
+				</fieldset>											
+				
+
+				
+	<footer>
+		<p class="text-center">© Nordestino 2023</p>
+	</footer>
+			  
+	  
+	
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(207, 245, 190);
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.nav-link{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar{
+    z-index: 999;
+    height: 100px;
+    position: fixed;
+    border: 2px solid white;
+}
+.carousel_slide{
+    margin-right: auto;
+}
+
+.carousel-inner{    
+    margin-top: 10px;
+    margin-left: 10px;  
+    padding: 10px;
+    align-items: center;   
+}
+
+.card-deck{
+    margin: auto; 
+    margin-top: 20px;
+    margin-bottom: 10px;    
+}
+
+.conteudo{
+    margin-top: 100px;
+    text-align: center;
+   }
+
+#saudacao{
+    margin-top: 50px;
+    color: blue;
+}
+#prato-apresentacao{
+    width: 110px;
+}
+.text-center{   
+    margin-top: 60px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(7, 7, 7);
+}
